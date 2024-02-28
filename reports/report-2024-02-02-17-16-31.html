@@ -1,0 +1,649 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>跨规盈接口测试报告</title>
+    <meta name="generator" content="HTMLTestRunner 0.8.3"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link href="http://libs.baidu.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+    <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+    <script src="http://libs.baidu.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    
+<style type="text/css" media="screen">
+body        { font-family: Microsoft YaHei,Tahoma,arial,helvetica,sans-serif;padding: 20px; font-size: 100%; }
+table       { font-size: 100%; }
+
+/* -- heading ---------------------------------------------------------------------- */
+.heading {
+    margin-top: 0ex;
+    margin-bottom: 1ex;
+}
+
+.heading .description {
+    margin-top: 4ex;
+    margin-bottom: 6ex;
+}
+
+/* -- report ------------------------------------------------------------------------ */
+#total_row  { font-weight: bold; }
+.passCase   { color: #5cb85c; }
+.failCase   { color: #d9534f; font-weight: bold; }
+.errorCase  { color: #f0ad4e; font-weight: bold; }
+.hiddenRow  { display: none; }
+.testcase   { margin-left: 2em; }
+</style>
+
+</head>
+<body >
+<div class='heading'>
+<h1 style="font-family: Microsoft YaHei">跨规盈接口测试报告</h1>
+<p class='attribute'><strong>测试人员 : </strong> 跨规盈QA</p>
+<p class='attribute'><strong>开始时间 : </strong> 2024-02-02 17:16:31</p>
+<p class='attribute'><strong>合计耗时 : </strong> 0:01:53.590078</p>
+<p class='attribute'><strong>测试结果 : </strong> 共 56，通过 54，失败 2，通过率= 96.43%</p>
+
+<p class='description'>以下是接口自动化测试报告，请查收!</p>
+</div>
+
+
+
+<p id='show_detail_line'>
+<a class="btn btn-primary" href='javascript:showCase(4)'>概要{ 96.43% }</a>
+<a class="btn btn-success" href='javascript:showCase(0)'>通过{ 54 }</a>
+<a class="btn btn-danger" href='javascript:showCase(1)'>失败{ 2 }</a>
+<a class="btn btn-warning" href='javascript:showCase(2)'>错误{ 0 }</a>
+<a class="btn btn-info" href='javascript:showCase(3)'>所有{ 56 }</a>
+</p>
+<table id='result_table' class="table table-condensed table-bordered table-hover">
+<colgroup>
+<col align='left' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+</colgroup>
+<tr id='header_row' class="text-center active" style="font-weight: bold;font-size: 14px;">
+    <td>用例集/测试用例</td>
+    <td>总计</td>
+    <td>通过</td>
+    <td>失败</td>
+    <td>错误</td>
+    <td>详细</td>
+</tr>
+
+<tr class='success'>
+    <td>test_admin_addproduct.TestAdminAddProduct: 管理端-添加商品模块</td>
+    <td class="text-center">3</td>
+    <td class="text-center">3</td>
+    <td class="text-center">0</td>
+    <td class="text-center">0</td>
+    <td class="text-center"><a href="javascript:showClassDetail('c1',3)" class="detail" id='c1'>详细</a></td>
+</tr>
+
+<tr id='pt1_1' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_admin_addproduct_00001_添加商品_vat合规_注册_申报_</div></td>
+    <td colspan='5' align='center'><button id='btn_pt1_1' type="button"  class="btn-xs" disabled="disabled" data-toggle="collapse" data-target='#div_pt1_1'>通过</button></td>
+</tr>
+
+<tr id='pt1_2' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_admin_addproduct_00002_添加商品_vat合规_注册_申报__不传sku字段</div></td>
+    <td colspan='5' align='center'><button id='btn_pt1_2' type="button"  class="btn-xs" disabled="disabled" data-toggle="collapse" data-target='#div_pt1_2'>通过</button></td>
+</tr>
+
+<tr id='pt1_3' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_admin_addproduct_00003_添加商品_vat合规_注册_申报__规格不存在</div></td>
+    <td colspan='5' align='center'><button id='btn_pt1_3' type="button"  class="btn-xs" disabled="disabled" data-toggle="collapse" data-target='#div_pt1_3'>通过</button></td>
+</tr>
+
+<tr class='success'>
+    <td>test_newuser_activitylist.TestNewUserActivityList: 用户端-购买服务-新人活动专区列表</td>
+    <td class="text-center">2</td>
+    <td class="text-center">2</td>
+    <td class="text-center">0</td>
+    <td class="text-center">0</td>
+    <td class="text-center"><a href="javascript:showClassDetail('c2',2)" class="detail" id='c2'>详细</a></td>
+</tr>
+
+<tr id='pt2_1' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_newuser_activitylist_00001_新人活动_新用户</div></td>
+    <td colspan='5' align='center'><button id='btn_pt2_1' type="button"  class="btn-xs" disabled="disabled" data-toggle="collapse" data-target='#div_pt2_1'>通过</button></td>
+</tr>
+
+<tr id='pt2_2' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_newuser_activitylist_00002_新人活动_旧用户</div></td>
+    <td colspan='5' align='center'><button id='btn_pt2_2' type="button"  class="btn-xs" disabled="disabled" data-toggle="collapse" data-target='#div_pt2_2'>通过</button></td>
+</tr>
+
+<tr class='success'>
+    <td>test_user_activityDetail.TestUserActivityDetail: 用户端-用户端_查看活动专区详情</td>
+    <td class="text-center">1</td>
+    <td class="text-center">1</td>
+    <td class="text-center">0</td>
+    <td class="text-center">0</td>
+    <td class="text-center"><a href="javascript:showClassDetail('c3',1)" class="detail" id='c3'>详细</a></td>
+</tr>
+
+<tr id='pt3_1' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_user_activityDetail_00001_查看活动专区列表</div></td>
+    <td colspan='5' align='center'><button id='btn_pt3_1' type="button"  class="btn-xs" disabled="disabled" data-toggle="collapse" data-target='#div_pt3_1'>通过</button></td>
+</tr>
+
+<tr class='success'>
+    <td>test_user_activityList.TestUserList: 用户端-活动专区-列表模块</td>
+    <td class="text-center">1</td>
+    <td class="text-center">1</td>
+    <td class="text-center">0</td>
+    <td class="text-center">0</td>
+    <td class="text-center"><a href="javascript:showClassDetail('c4',1)" class="detail" id='c4'>详细</a></td>
+</tr>
+
+<tr id='pt4_1' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_user_list_00001_查看活动专区列表</div></td>
+    <td colspan='5' align='center'><button id='btn_pt4_1' type="button"  class="btn-xs" disabled="disabled" data-toggle="collapse" data-target='#div_pt4_1'>通过</button></td>
+</tr>
+
+<tr class='success'>
+    <td>test_user_add.TestUserAdd: 用户端-添加购物车模块</td>
+    <td class="text-center">4</td>
+    <td class="text-center">4</td>
+    <td class="text-center">0</td>
+    <td class="text-center">0</td>
+    <td class="text-center"><a href="javascript:showClassDetail('c5',4)" class="detail" id='c5'>详细</a></td>
+</tr>
+
+<tr id='pt5_1' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_user_add_00001_成功添加至购物车</div></td>
+    <td colspan='5' align='center'><button id='btn_pt5_1' type="button"  class="btn-xs" disabled="disabled" data-toggle="collapse" data-target='#div_pt5_1'>通过</button></td>
+</tr>
+
+<tr id='pt5_2' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_user_add_00002_添加购物车失败_skuid为负数</div></td>
+    <td colspan='5' align='center'><button id='btn_pt5_2' type="button"  class="btn-xs" disabled="disabled" data-toggle="collapse" data-target='#div_pt5_2'>通过</button></td>
+</tr>
+
+<tr id='pt5_3' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_user_add_00003_添加购物车失败_skuid关联的商品已下架</div></td>
+    <td colspan='5' align='center'><button id='btn_pt5_3' type="button"  class="btn-xs" disabled="disabled" data-toggle="collapse" data-target='#div_pt5_3'>通过</button></td>
+</tr>
+
+<tr id='pt5_4' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_user_add_00004_添加购物车失败_数量为0</div></td>
+    <td colspan='5' align='center'><button id='btn_pt5_4' type="button"  class="btn-xs" disabled="disabled" data-toggle="collapse" data-target='#div_pt5_4'>通过</button></td>
+</tr>
+
+<tr class='success'>
+    <td>test_user_batchupdate.TestBatchUpdate: 用户端-更新购物车</td>
+    <td class="text-center">2</td>
+    <td class="text-center">2</td>
+    <td class="text-center">0</td>
+    <td class="text-center">0</td>
+    <td class="text-center"><a href="javascript:showClassDetail('c6',2)" class="detail" id='c6'>详细</a></td>
+</tr>
+
+<tr id='pt6_1' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_batchupdate_00001_成功更新购物车</div></td>
+    <td colspan='5' align='center'><button id='btn_pt6_1' type="button"  class="btn-xs" disabled="disabled" data-toggle="collapse" data-target='#div_pt6_1'>通过</button></td>
+</tr>
+
+<tr id='pt6_2' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_batchupdate_00002_更新购物车失败_传参quantity_0</div></td>
+    <td colspan='5' align='center'><button id='btn_pt6_2' type="button"  class="btn-xs" disabled="disabled" data-toggle="collapse" data-target='#div_pt6_2'>通过</button></td>
+</tr>
+
+<tr class='danger'>
+    <td>test_user_couponCenterBatchAcquire.TestUseCouponCenterBatchAcquire: 用户端_领券中心领券商品券</td>
+    <td class="text-center">1</td>
+    <td class="text-center">0</td>
+    <td class="text-center">1</td>
+    <td class="text-center">0</td>
+    <td class="text-center"><a href="javascript:showClassDetail('c7',1)" class="detail" id='c7'>详细</a></td>
+</tr>
+
+<tr id='ft7_1' class='none'>
+    <td class='failCase'><div class='testcase'>test_user_couponCenterBatchAcquire_00001_领券中心领券商品券</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起output信息 -Findyou
+    <button id='btn_ft7_1' type="button"  class="btn-xs collapsed" data-toggle="collapse" data-target='#div_ft7_1'>失败</button>
+    <div id='div_ft7_1' class="collapse">  -->
+
+    <!-- 默认展开output信息 -Findyou -->
+    <button id='btn_ft7_1' type="button"  class="btn-xs" data-toggle="collapse" data-target='#div_ft7_1'>失败</button>
+    <div id='div_ft7_1' class="collapse in">
+    <pre>
+    
+ft7_1: Traceback (most recent call last):
+  File "E:\workcode\vat-quality\common\ddt.py", line 227, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\workcode\vat-quality\test\test_user_couponCenterBatchAcquire.py", line 51, in test_user_couponCenterBatchAcquire
+    raise e
+  File "E:\workcode\vat-quality\test\test_user_couponCenterBatchAcquire.py", line 45, in test_user_couponCenterBatchAcquire
+    self.assertTrue(json.loads(info["expected"])["code"] == rsp["code"])
+AssertionError: False is not true
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr class='success'>
+    <td>test_user_couponCenterList.TestUserCouponCenterList: 用户端_领券中心-列表模块</td>
+    <td class="text-center">1</td>
+    <td class="text-center">1</td>
+    <td class="text-center">0</td>
+    <td class="text-center">0</td>
+    <td class="text-center"><a href="javascript:showClassDetail('c8',1)" class="detail" id='c8'>详细</a></td>
+</tr>
+
+<tr id='pt8_1' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_user_couponCenterList_00001_查询领券中心</div></td>
+    <td colspan='5' align='center'><button id='btn_pt8_1' type="button"  class="btn-xs" disabled="disabled" data-toggle="collapse" data-target='#div_pt8_1'>通过</button></td>
+</tr>
+
+<tr class='success'>
+    <td>test_user_couponstatus.TestUserCouponStatusStat: 用户端_用户优惠券状态数量统计</td>
+    <td class="text-center">1</td>
+    <td class="text-center">1</td>
+    <td class="text-center">0</td>
+    <td class="text-center">0</td>
+    <td class="text-center"><a href="javascript:showClassDetail('c9',1)" class="detail" id='c9'>详细</a></td>
+</tr>
+
+<tr id='pt9_1' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_user_couponstatusstat_00001_用户优惠券状态数量统计</div></td>
+    <td colspan='5' align='center'><button id='btn_pt9_1' type="button"  class="btn-xs" disabled="disabled" data-toggle="collapse" data-target='#div_pt9_1'>通过</button></td>
+</tr>
+
+<tr class='success'>
+    <td>test_user_deleteByIds.TestDeleteByids: 用户端-删除购物车</td>
+    <td class="text-center">2</td>
+    <td class="text-center">2</td>
+    <td class="text-center">0</td>
+    <td class="text-center">0</td>
+    <td class="text-center"><a href="javascript:showClassDetail('c10',2)" class="detail" id='c10'>详细</a></td>
+</tr>
+
+<tr id='pt10_1' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_delete_byids_00001_成功删除购物车</div></td>
+    <td colspan='5' align='center'><button id='btn_pt10_1' type="button"  class="btn-xs" disabled="disabled" data-toggle="collapse" data-target='#div_pt10_1'>通过</button></td>
+</tr>
+
+<tr id='pt10_2' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_delete_byids_00002_删除购物车失败_购物车id为空</div></td>
+    <td colspan='5' align='center'><button id='btn_pt10_2' type="button"  class="btn-xs" disabled="disabled" data-toggle="collapse" data-target='#div_pt10_2'>通过</button></td>
+</tr>
+
+<tr class='success'>
+    <td>test_user_getDetailsById.TestGetDetailsByid: 用户端-查看商品详情</td>
+    <td class="text-center">3</td>
+    <td class="text-center">3</td>
+    <td class="text-center">0</td>
+    <td class="text-center">0</td>
+    <td class="text-center"><a href="javascript:showClassDetail('c11',3)" class="detail" id='c11'>详细</a></td>
+</tr>
+
+<tr id='pt11_1' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_get_details_byid_00001_成功查看详情</div></td>
+    <td colspan='5' align='center'><button id='btn_pt11_1' type="button"  class="btn-xs" disabled="disabled" data-toggle="collapse" data-target='#div_pt11_1'>通过</button></td>
+</tr>
+
+<tr id='pt11_2' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_get_details_byid_00002_id为0</div></td>
+    <td colspan='5' align='center'><button id='btn_pt11_2' type="button"  class="btn-xs" disabled="disabled" data-toggle="collapse" data-target='#div_pt11_2'>通过</button></td>
+</tr>
+
+<tr id='pt11_3' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_get_details_byid_00003_id为负数</div></td>
+    <td colspan='5' align='center'><button id='btn_pt11_3' type="button"  class="btn-xs" disabled="disabled" data-toggle="collapse" data-target='#div_pt11_3'>通过</button></td>
+</tr>
+
+<tr class='success'>
+    <td>test_user_list.TestUserList: 用户端-购买服务-列表模块</td>
+    <td class="text-center">27</td>
+    <td class="text-center">27</td>
+    <td class="text-center">0</td>
+    <td class="text-center">0</td>
+    <td class="text-center"><a href="javascript:showClassDetail('c12',27)" class="detail" id='c12'>详细</a></td>
+</tr>
+
+<tr id='pt12_1' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_user_list_00001_全部服务_全部国家</div></td>
+    <td colspan='5' align='center'><button id='btn_pt12_1' type="button"  class="btn-xs" disabled="disabled" data-toggle="collapse" data-target='#div_pt12_1'>通过</button></td>
+</tr>
+
+<tr id='pt12_2' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_user_list_00002_全部服务_中国</div></td>
+    <td colspan='5' align='center'><button id='btn_pt12_2' type="button"  class="btn-xs" disabled="disabled" data-toggle="collapse" data-target='#div_pt12_2'>通过</button></td>
+</tr>
+
+<tr id='pt12_3' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_user_list_00003_全部服务_阿联酋</div></td>
+    <td colspan='5' align='center'><button id='btn_pt12_3' type="button"  class="btn-xs" disabled="disabled" data-toggle="collapse" data-target='#div_pt12_3'>通过</button></td>
+</tr>
+
+<tr id='pt12_4' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_user_list_00004_全部服务_澳大利亚</div></td>
+    <td colspan='5' align='center'><button id='btn_pt12_4' type="button"  class="btn-xs" disabled="disabled" data-toggle="collapse" data-target='#div_pt12_4'>通过</button></td>
+</tr>
+
+<tr id='pt12_5' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_user_list_00005_全部服务_加拿大</div></td>
+    <td colspan='5' align='center'><button id='btn_pt12_5' type="button"  class="btn-xs" disabled="disabled" data-toggle="collapse" data-target='#div_pt12_5'>通过</button></td>
+</tr>
+
+<tr id='pt12_6' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_user_list_00006_全部服务_德国</div></td>
+    <td colspan='5' align='center'><button id='btn_pt12_6' type="button"  class="btn-xs" disabled="disabled" data-toggle="collapse" data-target='#div_pt12_6'>通过</button></td>
+</tr>
+
+<tr id='pt12_7' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_user_list_00007_全部服务_西班牙</div></td>
+    <td colspan='5' align='center'><button id='btn_pt12_7' type="button"  class="btn-xs" disabled="disabled" data-toggle="collapse" data-target='#div_pt12_7'>通过</button></td>
+</tr>
+
+<tr id='pt12_8' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_user_list_00008_全部服务_意大利</div></td>
+    <td colspan='5' align='center'><button id='btn_pt12_8' type="button"  class="btn-xs" disabled="disabled" data-toggle="collapse" data-target='#div_pt12_8'>通过</button></td>
+</tr>
+
+<tr id='pt12_9' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_user_list_00009_全部服务_美国</div></td>
+    <td colspan='5' align='center'><button id='btn_pt12_9' type="button"  class="btn-xs" disabled="disabled" data-toggle="collapse" data-target='#div_pt12_9'>通过</button></td>
+</tr>
+
+<tr id='pt12_10' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_user_list_00010_全部服务_欧盟</div></td>
+    <td colspan='5' align='center'><button id='btn_pt12_10' type="button"  class="btn-xs" disabled="disabled" data-toggle="collapse" data-target='#div_pt12_10'>通过</button></td>
+</tr>
+
+<tr id='pt12_11' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_user_list_00011_全部服务_法国</div></td>
+    <td colspan='5' align='center'><button id='btn_pt12_11' type="button"  class="btn-xs" disabled="disabled" data-toggle="collapse" data-target='#div_pt12_11'>通过</button></td>
+</tr>
+
+<tr id='pt12_12' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_user_list_00012_全部服务_捷克</div></td>
+    <td colspan='5' align='center'><button id='btn_pt12_12' type="button"  class="btn-xs" disabled="disabled" data-toggle="collapse" data-target='#div_pt12_12'>通过</button></td>
+</tr>
+
+<tr id='pt12_13' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_user_list_00013_全部服务_波兰</div></td>
+    <td colspan='5' align='center'><button id='btn_pt12_13' type="button"  class="btn-xs" disabled="disabled" data-toggle="collapse" data-target='#div_pt12_13'>通过</button></td>
+</tr>
+
+<tr id='pt12_14' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_user_list_00014_全部服务_日本</div></td>
+    <td colspan='5' align='center'><button id='btn_pt12_14' type="button"  class="btn-xs" disabled="disabled" data-toggle="collapse" data-target='#div_pt12_14'>通过</button></td>
+</tr>
+
+<tr id='pt12_15' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_user_list_00015_全部服务_英国</div></td>
+    <td colspan='5' align='center'><button id='btn_pt12_15' type="button"  class="btn-xs" disabled="disabled" data-toggle="collapse" data-target='#div_pt12_15'>通过</button></td>
+</tr>
+
+<tr id='pt12_16' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_user_list_00016_VAT合规_全部国家</div></td>
+    <td colspan='5' align='center'><button id='btn_pt12_16' type="button"  class="btn-xs" disabled="disabled" data-toggle="collapse" data-target='#div_pt12_16'>通过</button></td>
+</tr>
+
+<tr id='pt12_17' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_user_list_00017_VAT合规_德国</div></td>
+    <td colspan='5' align='center'><button id='btn_pt12_17' type="button"  class="btn-xs" disabled="disabled" data-toggle="collapse" data-target='#div_pt12_17'>通过</button></td>
+</tr>
+
+<tr id='pt12_18' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_user_list_00018_VAT合规_美国</div></td>
+    <td colspan='5' align='center'><button id='btn_pt12_18' type="button"  class="btn-xs" disabled="disabled" data-toggle="collapse" data-target='#div_pt12_18'>通过</button></td>
+</tr>
+
+<tr id='pt12_19' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_user_list_00019_ERP合规_全部国家</div></td>
+    <td colspan='5' align='center'><button id='btn_pt12_19' type="button"  class="btn-xs" disabled="disabled" data-toggle="collapse" data-target='#div_pt12_19'>通过</button></td>
+</tr>
+
+<tr id='pt12_20' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_user_list_00020_ERP合规_德国</div></td>
+    <td colspan='5' align='center'><button id='btn_pt12_20' type="button"  class="btn-xs" disabled="disabled" data-toggle="collapse" data-target='#div_pt12_20'>通过</button></td>
+</tr>
+
+<tr id='pt12_21' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_user_list_00021_ERP合规_西班牙</div></td>
+    <td colspan='5' align='center'><button id='btn_pt12_21' type="button"  class="btn-xs" disabled="disabled" data-toggle="collapse" data-target='#div_pt12_21'>通过</button></td>
+</tr>
+
+<tr id='pt12_22' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_user_list_00022_产品合规_全部国家</div></td>
+    <td colspan='5' align='center'><button id='btn_pt12_22' type="button"  class="btn-xs" disabled="disabled" data-toggle="collapse" data-target='#div_pt12_22'>通过</button></td>
+</tr>
+
+<tr id='pt12_23' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_user_list_00023_产品合规_英国</div></td>
+    <td colspan='5' align='center'><button id='btn_pt12_23' type="button"  class="btn-xs" disabled="disabled" data-toggle="collapse" data-target='#div_pt12_23'>通过</button></td>
+</tr>
+
+<tr id='pt12_24' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_user_list_00024_知识产权_全部国家</div></td>
+    <td colspan='5' align='center'><button id='btn_pt12_24' type="button"  class="btn-xs" disabled="disabled" data-toggle="collapse" data-target='#div_pt12_24'>通过</button></td>
+</tr>
+
+<tr id='pt12_25' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_user_list_00025_知识产权_美国</div></td>
+    <td colspan='5' align='center'><button id='btn_pt12_25' type="button"  class="btn-xs" disabled="disabled" data-toggle="collapse" data-target='#div_pt12_25'>通过</button></td>
+</tr>
+
+<tr id='pt12_26' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_user_list_00026_海外公司_全部国家</div></td>
+    <td colspan='5' align='center'><button id='btn_pt12_26' type="button"  class="btn-xs" disabled="disabled" data-toggle="collapse" data-target='#div_pt12_26'>通过</button></td>
+</tr>
+
+<tr id='pt12_27' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_user_list_00027_海外公司_法国</div></td>
+    <td colspan='5' align='center'><button id='btn_pt12_27' type="button"  class="btn-xs" disabled="disabled" data-toggle="collapse" data-target='#div_pt12_27'>通过</button></td>
+</tr>
+
+<tr class='success'>
+    <td>test_user_login.TestUserLogin: 用户端-登录模块</td>
+    <td class="text-center">5</td>
+    <td class="text-center">5</td>
+    <td class="text-center">0</td>
+    <td class="text-center">0</td>
+    <td class="text-center"><a href="javascript:showClassDetail('c13',5)" class="detail" id='c13'>详细</a></td>
+</tr>
+
+<tr id='pt13_1' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_user_login_00001_登录成功</div></td>
+    <td colspan='5' align='center'><button id='btn_pt13_1' type="button"  class="btn-xs" disabled="disabled" data-toggle="collapse" data-target='#div_pt13_1'>通过</button></td>
+</tr>
+
+<tr id='pt13_2' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_user_login_00002_登录失败_不传密码</div></td>
+    <td colspan='5' align='center'><button id='btn_pt13_2' type="button"  class="btn-xs" disabled="disabled" data-toggle="collapse" data-target='#div_pt13_2'>通过</button></td>
+</tr>
+
+<tr id='pt13_3' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_user_login_00003_登录失败_不传账号</div></td>
+    <td colspan='5' align='center'><button id='btn_pt13_3' type="button"  class="btn-xs" disabled="disabled" data-toggle="collapse" data-target='#div_pt13_3'>通过</button></td>
+</tr>
+
+<tr id='pt13_4' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_user_login_00004_登录失败_密码错误</div></td>
+    <td colspan='5' align='center'><button id='btn_pt13_4' type="button"  class="btn-xs" disabled="disabled" data-toggle="collapse" data-target='#div_pt13_4'>通过</button></td>
+</tr>
+
+<tr id='pt13_5' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_user_login_00005_登录失败_登录类型错误</div></td>
+    <td colspan='5' align='center'><button id='btn_pt13_5' type="button"  class="btn-xs" disabled="disabled" data-toggle="collapse" data-target='#div_pt13_5'>通过</button></td>
+</tr>
+
+<tr class='danger'>
+    <td>test_user_order_submit.TestUserOrderSubmit: 用户端-提交订单模块</td>
+    <td class="text-center">3</td>
+    <td class="text-center">2</td>
+    <td class="text-center">1</td>
+    <td class="text-center">0</td>
+    <td class="text-center"><a href="javascript:showClassDetail('c14',3)" class="detail" id='c14'>详细</a></td>
+</tr>
+
+<tr id='pt14_1' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_user_order_submit_00001_成功提交订单</div></td>
+    <td colspan='5' align='center'><button id='btn_pt14_1' type="button"  class="btn-xs" disabled="disabled" data-toggle="collapse" data-target='#div_pt14_1'>通过</button></td>
+</tr>
+
+<tr id='pt14_2' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_user_order_submit_00002_提交订单失败_购物车id重复提交_is_deleted_1_</div></td>
+    <td colspan='5' align='center'><button id='btn_pt14_2' type="button"  class="btn-xs" disabled="disabled" data-toggle="collapse" data-target='#div_pt14_2'>通过</button></td>
+</tr>
+
+<tr id='ft14_3' class='none'>
+    <td class='failCase'><div class='testcase'>test_user_order_submit_00003_提交订单失败_库存不足</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起output信息 -Findyou
+    <button id='btn_ft14_3' type="button"  class="btn-xs collapsed" data-toggle="collapse" data-target='#div_ft14_3'>失败</button>
+    <div id='div_ft14_3' class="collapse">  -->
+
+    <!-- 默认展开output信息 -Findyou -->
+    <button id='btn_ft14_3' type="button"  class="btn-xs" data-toggle="collapse" data-target='#div_ft14_3'>失败</button>
+    <div id='div_ft14_3' class="collapse in">
+    <pre>
+    
+ft14_3: Traceback (most recent call last):
+  File "E:\workcode\vat-quality\common\ddt.py", line 227, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\workcode\vat-quality\test\test_user_order_submit.py", line 72, in test_user_order_submit
+    raise e
+  File "E:\workcode\vat-quality\test\test_user_order_submit.py", line 67, in test_user_order_submit
+    self.assertTrue(json.loads(info["expected"])["code"] == rsp["code"])
+AssertionError: False is not true
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='total_row' class="text-center info">
+    <td>总计</td>
+    <td>56</td>
+    <td>54</td>
+    <td>2</td>
+    <td>0</td>
+    <td>通过率：96.43%</td>
+</tr>
+</table>
+
+<div id='ending'>&nbsp;</div>
+    <div style=" position:fixed;right:50px; bottom:30px; width:20px; height:20px;cursor:pointer">
+    <a href="#"><span class="glyphicon glyphicon-eject" style = "font-size:30px;" aria-hidden="true">
+    </span></a></div>
+    
+<script language="javascript" type="text/javascript">
+output_list = Array();
+// 修改按钮颜色显示错误问题 --Findyou v0.8.2.3
+
+$("button[id^='btn_pt']").addClass("btn btn-success");
+$("button[id^='btn_ft']").addClass("btn btn-danger");
+$("button[id^='btn_et']").addClass("btn btn-warning");
+
+/*level
+增加分类并调整，增加error按钮事件 --Findyou v0.8.2.3
+0:Pass    //pt none, ft hiddenRow, et hiddenRow
+1:Failed  //pt hiddenRow, ft none, et hiddenRow
+2:Error    //pt hiddenRow, ft hiddenRow, et none
+3:All     //pt none, ft none, et none
+4:Summary //all hiddenRow
+*/
+
+//add Error button event --Findyou v0.8.2.3
+function showCase(level) {
+    trs = document.getElementsByTagName("tr");
+    for (var i = 0; i < trs.length; i++) {
+        tr = trs[i];
+        id = tr.id;
+        if (id.substr(0,2) == 'ft') {
+            if (level == 0 || level == 2 || level == 4 ) {
+                tr.className = 'hiddenRow';
+            }
+            else {
+                tr.className = '';
+            }
+        }
+        if (id.substr(0,2) == 'pt') {
+            if (level == 1 || level == 2 || level == 4) {
+                tr.className = 'hiddenRow';
+            }
+            else {
+                tr.className = '';
+            }
+        }
+        if (id.substr(0,2) == 'et') {
+            if (level == 0 || level == 1 || level == 4) {
+                tr.className = 'hiddenRow';
+            }
+            else {
+                tr.className = '';
+            }
+        }
+    }
+
+    //加入【详细】切换文字变化 --Findyou
+    detail_class=document.getElementsByClassName('detail');
+	//console.log(detail_class.length)
+	if (level == 3) {
+		for (var i = 0; i < detail_class.length; i++){
+			detail_class[i].innerHTML="收起"
+		}
+	}
+	else{
+			for (var i = 0; i < detail_class.length; i++){
+			detail_class[i].innerHTML="详细"
+		}
+	}
+}
+
+//add Error button event --Findyou v0.8.2.3
+function showClassDetail(cid, count) {
+    var id_list = Array(count);
+    var toHide = 1;
+    for (var i = 0; i < count; i++) {
+        tid0 = 't' + cid.substr(1) + '_' + (i+1);
+        tid = 'f' + tid0;
+        tr = document.getElementById(tid);
+        if (!tr) {
+            tid = 'p' + tid0;
+            tr = document.getElementById(tid);
+        }
+        if (!tr) {
+            tid = 'e' + tid0;
+            tr = document.getElementById(tid);
+        }
+        id_list[i] = tid;
+        if (tr.className) {
+            toHide = 0;
+        }
+    }
+    for (var i = 0; i < count; i++) {
+        tid = id_list[i];
+        //修改点击无法收起的BUG，加入【详细】切换文字变化 --Findyou
+        if (toHide) {
+            document.getElementById(tid).className = 'hiddenRow';
+            document.getElementById(cid).innerText = "详细"
+        }
+        else {
+            document.getElementById(tid).className = '';
+            document.getElementById(cid).innerText = "收起"
+        }
+    }
+}
+
+function html_escape(s) {
+    s = s.replace(/&/g,'&amp;');
+    s = s.replace(/</g,'&lt;');
+    s = s.replace(/>/g,'&gt;');
+    return s;
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+
+
+env_user:
+    url: "https://test-user.wincomply.com"
+    login_account: "19900000002"
+    password: "c04e56d2b514724c84baf2db13fd3a1e"
+
+
+env_admin:
+    url: "https://test-admin.wincomply.com"
+    login_account: "hequan"
+    password: "JoJDGii2rXOcuHcXpKf92BjPuqEovw3rHHgQtmd65p/33yW330+tvMsYlkfTiNPbM+TGNgQHmwSmEkaoXTXRIA=="
+
+
+
+webhook_url: "https://oapi.dingtalk.com/robot/send?access_token=f027d05b0cb36a4bd82810cf9fd51b2bb1734c7a3c958e3d7b54351f14f5567c"
+domain_url: "http://10.145.30.30:5000"
+
+authorize_info:
+    smtpserver: "smtp.qq.com"
+    user: "13104996106@163.com"
+    password: "TSGYPRPRFNYYUAES"
+    sender: "13104996106@163.com"
+    receiver: ["hequan@vcredit.com",""]
+
+
+db:
+    address: "rm-uf6s7pdj1829869iu.mysql.rds.aliyuncs.com"
+    database: "vat_mall"
+    port: 3306
+    user: "user_vat_mall"
+    password: "X0FcdHU8Rt_HSU5D8XR5bbK2"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
